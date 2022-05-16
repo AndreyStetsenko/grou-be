@@ -1,0 +1,57 @@
+{
+  "menu": [
+    {
+      "url": "dashboard",
+      "name": "Dashboard",
+      "slug": "dashboard",
+      "icon": "desktop"
+    },
+    {
+     "url": "dashboard/users/list",
+     "name": "Users",
+     "slug": "user",
+     "icon": "users"
+   },
+   {
+     "url": "dashboard/roles",
+     "name": "Roles",
+     "slug": "roles",
+     "icon": "unlock"
+   },
+   {
+     "url": "dashboard/tasks",
+     "name": "Tasks",
+     "slug": "app-todo",
+     "icon": "check-alt"
+   },
+   {
+     "url": "dashboard/calendar",
+     "name": "Calendar",
+     "slug": "app-calendar",
+     "icon": "calendar",
+     "class": "d-none"
+   },
+   {
+     "url": "dashboard/chat",
+     "name": "Chat",
+     "slug": "app-chat",
+     "icon": "comments",
+     "class": "d-none"
+   },
+   {
+     "url": "dashboard/kanban",
+     "name": "Kanban",
+     "slug": "app-kanban",
+     "icon": "grid",
+     "class": "d-none"
+   },
+   {
+     "url": "dashboard/settings",
+     "name": "Site Settings",
+     "slug": "settings",
+     "icon": "settings",
+     "active": "false",
+     "roles": "Admin"
+   }
+  ]
+}
